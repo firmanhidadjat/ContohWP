@@ -1,0 +1,29 @@
+
+===============================================================================================
+Service AMBIL PESAN
+===============================================================================================
+http://localhost:8881/serviceRest/ambilPesan
+{
+	"nama": "Joni Iskandar"
+}
+
+{
+    "kode": "7000",
+    "message": "Hallo, Joni Iskandar. Ini pesan statis dari aplikasi REST Camel: DODOL"
+}
+
+
+===============================================================================================
+Service Operasi Tambah
+===============================================================================================
+ http://localhost:8881/serviceRest/operasiTambah
+ 
+{
+	"bilanganPertama": 34,
+	"bilanganKedua": 67
+}
+
+
+{
+    "hasil": 101
+}
